@@ -241,3 +241,66 @@
 	}
 
 
+	.containerMe {
+
+		width:100%;
+		height: auto;
+
+	}
+
+.containerMe img{
+		width:100%;
+		height: 150px;
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+.containerMedown img{
+		width:100%;
+		height: 150px;
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+	.containerMedown {
+
+		width:100%;
+		height: 70px;
+
+	}
+
+.logoMe {
+
+width:100%;
+height: 100%;
+
+}
+
+.logoMe img{
+
+	max-width: 100%;
+	max-height: auto;
+}
+
+@media only screen 
+  and (min-device-width: 220px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+		.logoMe {
+	
+	display: none;
+
+		}
+
+}
+
