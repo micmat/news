@@ -1,0 +1,65 @@
+<ion-view>
+	<ion-nav-bar class="header">
+		<ion-nav-buttons side="left">
+			<button ng-click="$ionicGoBack()" class="back-button bar-button ion-android-arrow-back">
+			</button>
+			<button style="font-size:20px;" class="bar-button light"><span class="text-title">Log in</span></button>
+		</ion-nav-buttons>
+	</ion-nav-bar>
+	<ion-content class="content-login">
+		<div class="row no-padding" style="padding-left:39px;padding-right:39px">
+			<button ng-click="showPopupfb()" class="button button-block facebook-login box-shadow">
+				<div class="row row-no-padding">
+					<div class="col-10 ion-social-facebook">
+					</div>
+					<div class="col-90">
+						LOGIN WITH <b>FACEBOOK</b>
+					</div>
+				</div>
+			</button>
+		</div>
+		<div class="row no-padding-top" style="padding-left:39px;padding-right:39px">
+			<button ng-click="showPopupg()" class="button button-block google-login box-shadow">
+				<div class="row row-no-padding">
+					<div class="col-10 ion-social-googleplus-outline">
+					</div>
+					<div class="col-90">
+						LOGIN WITH <b>GOOGLE</b>
+					</div>
+				</div>
+			</button>
+		</div>
+		<center class="add">OR</center>
+		<div class="row">
+			<div class="col">
+				<div class="row responsive-sm responsive-lg background box-shadow no-padding">
+					<form action="" method="POST">
+						<span class="add">Log in with your email</span>
+						
+						<div class="list">
+							<label class="item item-input item-floating-label">
+								<input class="input-login" type="text" placeholder="Email">
+							</label>
+							<label class="item item-input item-floating-label">
+								<input class="input-login" type="text" placeholder="Password">
+							</label>
+						</div>
+						<div class="col">
+							<center><a class="add" href="">Forgot password?</a></center>
+						</div>
+						<div class="col login no-padding">
+							<button class="button button-block login-email box-shadow">LOG IN</button>
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+		<div class="col no-padding">
+			<center><a class="add" href="">Not a member yet?</a></center>
+		</div>
+		<div class="col no-padding-top">
+			<a href="#/app/settings/login/signup" class="button button-block signup-now">SIGN UP NOW</a>
+		</div>
+		
+	</ion-content>
+</ion-view>

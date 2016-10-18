@@ -1,0 +1,11 @@
+.content-photo{background:#ddd;}
+.photo{background:#fff;border:#ddd 1px solid;}
+.header-detail{background:#000;border:0px;}
+.back-button-light{color:#fff;}
+.info-photo{background:#000;}
+.button-icon.bar-button.icon-bookmarks:focus{color:#ff0000;}
+.bar.bar-footer.title-photo{
+	background:rgba(0,0,0,0.2);color:#fff;display:block;height:auto;font-size:17px;
+}
+.text-photo{color:#fff;font-size:14px;margin-top:5px;margin-bottom:0px;line-height:1.1;}
+.footer-type{color:#ddd;font-size:14px;}

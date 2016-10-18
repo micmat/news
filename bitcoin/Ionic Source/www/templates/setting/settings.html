@@ -1,0 +1,44 @@
+<ion-view>
+	<ion-nav-bar class="header row-center">
+		<ion-nav-buttons side="left">
+			<button ng-click="$ionicGoBack()" class="back-button bar-button ion-android-arrow-back">
+			</button>
+			<button style="font-size:20px;" class="bar-button light"><span class="text-title">Settings</span></button>
+		</ion-nav-buttons>
+	</ion-nav-bar>
+	<ion-content>
+		<div class="list">
+			<a href="#/app/settings/login" class="item item-avatar flexx no-padding">
+				<img src="img/avatar.png">
+				<span class="text-setting">Log in</span>
+			</a>
+			<a href="" class="item flexx no-padding-top">
+				<span class="text-setting">My bookmarks</span>
+			</a>
+			<span class="item title-setting">App Settings</span>
+			<a ng-click="showPopuptheme()" class="item flexx">
+				<span class="text-setting">Theme</span>
+			</a>
+			<a ng-click="showPopuptext()" class="item flexx">
+				<span class="text-setting">Text size<br/>
+				<span class="add">Text size for story pages</span></span>
+			</a>
+			<a href="#/app/settings/notification" class="item flexx">
+				<span class="text-setting">Push notifications</span>
+			</a>
+			<span class="item title-setting">Infomation</span>
+			<a href="#/app/settings/about" class="item flexx">
+				<span class="text-setting">About us</span>
+			</a>
+			<a href="#/app/settings/terms" class="item flexx">
+				<span class="text-setting">Terms of use</span>
+			</a>
+			<a href="#/app/settings/policy" class="item flexx">
+				<span class="text-setting">Privacy policy</span>
+			</a>
+		</div>
+			<div class="row flexxx">
+				<span class="add">version 3.9.3</span>
+			</div>
+	</ion-content>
+</ion-view>
